@@ -1,0 +1,119 @@
+body{
+		font-family: "Times New Roman";
+        background-color: #42414D !important;
+        color: white;
+        bottom: 70%;
+	}
+	.menu1 a{
+		color: black;
+	}
+	.menu1{
+		background-color: #008044;
+		box-shadow: 4px 4px 14px #008000;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        margin-top: -60px;
+        margin-left: -15px;
+	}
+    .menu1 .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .rightmenu{
+        display: flex;
+        float:right;
+    }
+	.menu1hover{
+		display: flex;
+		height: 60px;
+		align-items: center;
+	}
+	.menu1hover:hover {
+		background-color: #00B544;
+	}
+	.row1{
+		position: relative;
+		margin-top: 60px;
+	}
+    .footer{
+        color: white;
+        text-align:center;
+    }
+	.submenu{
+	  overflow-y: scroll;
+      background-color: #3C3F41;
+        border-radius: 4px;
+	}
+	.submenu ul{
+		list-style: none;
+	}
+	.col-3 ul{
+		margin: 4px;
+		padding: 4px;
+	}
+	.submenu1 {
+		border-radius: 4px;
+		color: white;
+		width: 100%;
+	}
+	.submenu1:hover {
+		background-color: #008044;
+		color: white;
+	}
+	.card-body{
+		border-left: 5px solid #0F410A;
+        background-color: silver;
+	}
+	.card-footer{
+		padding-bottom: 44px;
+    }
+    .card-header{
+        background-color: #3C3F41;
+    }
+	.basic{
+		padding-top: 20px;
+	}
+    .admin{
+        background-color: #3C3F41;
+    }
+    .admin label{
+        color: white;
+    }
+    .table td{
+        color: white;
+    }
+    .create {
+        margin-bottom: 14px;
+    }
+    .lesson{
+        height: 37px;
+    }
+    .container-fluid{
+        min-height: 820px;
+    }
+    .admin_menu{
+        display: flex;
+        list-style: none;
+    }
+    .admin_menu li{
+       margin-right: 14px;
+    }
+    table th{
+        text-align: center;
+    }
+    .table-center ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    .table-center li{
+        margin-right: 14px;
+    }
+    .input-table td{
+        text-align: center;
+    }
+    .black{
+        color:black;
+    }
+
